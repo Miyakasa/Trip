@@ -1,7 +1,7 @@
 @font-face {
   font-family: "source_sans_problack";
-  src: url("sourcesanspro-black.woff2") format("woff2"),
-    url("sourcesanspro-black.woff") format("woff");
+  src: url("TripTourMulti/sourcesanspro-black.woff2") format("woff2"),
+    url("TripTourMulti/sourcesanspro-black.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
