@@ -53,6 +53,10 @@ img {
   align-items: center;
 }
 
+.navbar a {
+  color: white;
+}
+
 .nav li {
   margin: 10px;
   padding: 20px;
@@ -114,7 +118,14 @@ aside {
   text-align: center;
 }
 
-.bigbutton {
+.text-content2 {
+  text-align: center;
+  font-size: 1rem;
+  color: #54aadb;
+  padding: 3rem;
+}
+
+/*.bigbutton {
   border: 1px solid rgb(255, 231, 152);
   font-size: 150%;
   justify-content: space-around;
@@ -129,7 +140,7 @@ aside {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+}*/
 
 .footer-links {
   list-style-type: none;
@@ -140,7 +151,7 @@ aside {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 0.5em 1em;
 }
@@ -155,4 +166,24 @@ a:hover {
 
 .bighead {
   color: rgb(14, 148, 103);
+}
+
+.footer-content a {
+  color: rgb(45, 189, 141);
+}
+
+.footer-ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-content a:visited {
+  color: rebeccapurple;
+}
+
+.footer-content a:hover {
+  color: #54aadb;
 }
