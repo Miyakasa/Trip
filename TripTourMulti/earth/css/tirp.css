@@ -1,3 +1,13 @@
+@media (max-width: 768px) {
+  .main-ul {
+    flex-direction: column; /* 设置为纵向排列 */
+  }
+
+  .item {
+    width: calc(100% - 20px);
+  }
+}
+
 @font-face {
   font-family: "source_sans_problack";
   src: url("sourcesanspro-black.woff2") format("woff2"),
@@ -167,10 +177,12 @@ a:hover {
 }
 
 .item {
-  width: calc(50% - 200px);
+  /*width: calc(50% - 200px);
   height: 20rem;
   padding: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;*/
+  width: calc(50% - 10px);
+  margin-bottom: 10px;
 }
 
 .footer-content a {
