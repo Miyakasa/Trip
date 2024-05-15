@@ -211,3 +211,8 @@ a:hover {
 .box a {
   color: rgb(143, 37, 51);
 }
+
+.name text-elli-one {
+  font-size: 2rem;
+  font-weight: bold;
+}
