@@ -51,6 +51,10 @@ nav {
     color: black;*/
 }
 
+.name text-elli-one {
+  font-weight: bold;
+}
+
 .navbar {
   list-style-type: none;
   padding: 0;
